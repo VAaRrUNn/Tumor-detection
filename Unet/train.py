@@ -1,6 +1,6 @@
 from tqdm.auto import tqdm
 from dataset_dataloader import *
-from model_ import *
+from Unet.model import *
 
 def train(n_epochs,
           dataloader,
